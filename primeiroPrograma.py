@@ -1,0 +1,1 @@
+print:("Ulá Mundo!Me livrei da maldição!")
