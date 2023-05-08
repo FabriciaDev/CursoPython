@@ -80,7 +80,7 @@ print(saldo is limite)
 #is not
 print(curso is not nome_curso)
 
-# operadores de identidade
+# operadores de associação
 
 curso = "Curso de Python"
 frutas = ["banana", "laranja, uva"]
