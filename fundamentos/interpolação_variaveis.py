@@ -1,13 +1,24 @@
-# interpolação de variáveis
+# Dicionários são compostos da chave e do valor. Chaves são as variávei dentro de um dicionártio
 
-nome = "Guilherme"
-idade = 28
-profissao = "programador"
-linguagem = "Python"
+# pode-se fazer uma lista de dicionários
+# a lista é fechada na lina em que foi aberta
+alvo = [ {'ip': '192.168.1.1', 'so': "windows", 'ativo': True, 'portas': [80, 22, 21]},  {'ip': '192.168.1.1', 'so': "linux", 'ativo': False, 'portas': [4444, 2222, 21]}, {'ip': '192.168.1.1', 'so': "windows", 'ativo': False, 'portas': [80]}, {'ip': '192.168.1.1', 'so': "os", 'ativo': False, 'portas': [3306, 1337]} ]
+# todos
+print(alvo)
+# terceiro item da lista de dicionários que tenha a chave portas
+print(alvo[3]["portas"])
+# segundo item da lista de dicionários que tenha a chave so
+print(alvo[2]["so"])
 
-# %
-# usa-se s para string, d para inteiro e f para float
-print("Olá, me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s." % (nome, idade, profissao, linguagem))
+# brincando com dicionários
 
-# format coloca {} e, dentro pode estar vasio, seguindo o exemplo de %
-print("Olá, me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s." % (nome, idade, profissao, linguagem))
+alvo = {'ip': '192.168.1.1', 'so': "windows", 'ativo': True, 'portas': [80, 22, 21] }
+# adicionando uo atualizandoi um valor ( se o valor não existir ele cria)
+print(alvo)
+del alvo["so"] 
+print(alvo)
+
+# remover um item do dicionario
+print(alvo)
+alvo["so"] = "linux"
+print(alvo)
