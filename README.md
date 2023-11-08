@@ -19,3 +19,8 @@ arquvo do curso: logica_de_programacao.ipynb
 https://cursos.alura.com.br/certificate/a2287172-5f44-482c-85da-7daaea852c6e
 
 arquvo do curso: https://colab.research.google.com/drive/15L2baWhSnSDsBKZsvXJd93tYOhol1Wz3?usp=sharing
+
+## Data Visualization: explorando com Seaborn
+https://cursos.alura.com.br/certificate/915df36b-142e-43d3-98d8-70897b720074
+
+arquivo do curso: https://colab.research.google.com/drive/1CvsonkmDx34RnuelFGBmU0TPfpEIkm2D?usp=sharing
